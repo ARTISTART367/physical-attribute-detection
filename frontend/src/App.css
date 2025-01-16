@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  background-color: #f0f4f8;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.App-header {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.btn.stop-btn {
+  background-color: #ff4d4d;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.video-feed video {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.results {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.result {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
